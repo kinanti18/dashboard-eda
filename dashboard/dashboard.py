@@ -4,13 +4,13 @@ import plotly.express as px
 
 
 # Load the datasets (replace these with your dataset paths)
-customers_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/customers_df.csv')
-orders_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/orders_df.csv')
-products_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/products_df.csv')
-order_items_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/order_items_df.csv')
-order_payments_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/order_payments_df.csv')
-order_reviews_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/order_reviews_df.csv')
-sellers_df = pd.read_csv('/Users/macbook/Downloads/submission/data/dataset_clean/sellers_df.csv')
+customers_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/customers_df.csv')
+orders_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/orders_df.csv')
+products_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/products_df.csv')
+order_items_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/order_items_df.csv')
+order_payments_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/order_payments_df.csv')
+order_reviews_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/order_reviews_df.csv')
+sellers_df = pd.read_csv('https://raw.githubusercontent.com/kinanti18/dashboard-eda/main/data/dataset_clean/sellers_df.csv')
 
 
 # Title and subheader
