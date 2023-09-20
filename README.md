@@ -9,3 +9,6 @@ pip install pandas plotly streamlit
 
 ## Run steamlit app
 streamlit run dashboard.py
+
+## Link Dashboard
+https://e-commerce-dashboard.streamlit.app/
